@@ -1,0 +1,33 @@
+.filled {
+  display: flex;
+  padding: 0.625rem 1.25rem;
+  align-items: center;
+  gap: 0.625rem;
+  width: fit-content;
+  border-radius: 0.375rem;
+  background: #4caf4f;
+  color: #fff;
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+}
+.filled:hover {
+  background: #65dd69;
+  transition: 300ms ease-in-out;
+}
+
+.empty {
+  display: flex;
+  padding: 0.625rem 1.25rem;
+  align-items: center;
+  gap: 0.625rem;
+  width: fit-content;
+  border-radius: 0.375rem;
+  background: #f5f7fa;
+  color: #4caf4f;
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+}
