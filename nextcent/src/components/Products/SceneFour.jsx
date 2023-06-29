@@ -31,6 +31,7 @@ function SceneFour() {
                 <Image
                   key={idx}
                   src={`/clients/Logo${idx}.svg`}
+                  alt={"client" + idx}
                   width={50}
                   height={40}
                 />
