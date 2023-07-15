@@ -63,7 +63,7 @@ function HeroSection() {
       {/* right/bottom */}
 
       <div className="relative w-full max-w-[26.313125rem] h-[30.75rem]">
-        <Image src={"/hero.svg"} alt="hero image" fill />
+        <Image src={"/hero.png"} alt="hero image" fill />
       </div>
     </section>
   )

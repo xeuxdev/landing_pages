@@ -12,17 +12,17 @@ function FeaturesSection() {
 
         <div className="relative flex items-center gap-5 px-5">
           <div className="relative w-[12.5rem] h-[17.5rem]">
-            <Image src={"/vr-1.svg"} alt="" width={200} height={280} />
+            <Image src={"/vr-1.webp"} alt="" width={200} height={280} />
             <div className="absolute inset-0 mx-auto mt-3 w-[12rem] h-[17rem]">
-              <Image src={"/img-1.svg"} alt="" fill />
+              <Image src={"/img-1.webp"} alt="" fill />
             </div>
           </div>
 
           {/* 2 */}
           <div className="relative w-[12.5rem] h-[17.5rem] mt-40">
-            <Image src={"/vr-2.svg"} alt="" width={200} height={280} />
+            <Image src={"/vr-2.webp"} alt="" width={200} height={280} />
             <div className="absolute inset-0 mx-auto w-[12rem] h-[17rem]">
-              <Image src={"/img-2.svg"} alt="" fill />
+              <Image src={"/img-2.webp"} alt="" fill />
             </div>
           </div>
         </div>
