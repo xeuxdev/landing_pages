@@ -1,11 +1,21 @@
+import CompanySection from "@/components/CompanySection"
+import CompanyValues from "@/components/CultureSection"
+import FeaturesSection from "@/components/FeaturesSection"
 import Header from "@/components/Header/Header"
-import Image from "next/image"
+import HeroSection from "@/components/HeroSection/HeroSection"
+import TestimonialSection from "@/components/TestimonialSection"
 
 export default function Home() {
   return (
-    <>
+    <div className="relative ">
       <Header />
-      <main className="flex min-h-screen flex-col items-center justify-between p-24"></main>
-    </>
+      <main className="overflow-x-hidden ">
+        <HeroSection />
+        <FeaturesSection />
+        <CompanySection />
+        <TestimonialSection />
+        <CompanyValues />
+      </main>
+    </div>
   )
 }
