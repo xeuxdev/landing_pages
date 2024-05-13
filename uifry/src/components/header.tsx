@@ -3,12 +3,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import Button from "./button";
+import { Button } from "./button";
 
 export default function Header() {
   const [activeLink, setActiveLink] = React.useState("home");
   return (
-    <header className="pt-10 relative h-[60px]">
+    <header className="pt-10 relative">
       <div className="flex items-center justify-between max-w-6xl mx-auto h-full">
         <div className="flex items-center gap-10">
           <Image src={"/logo.svg"} alt="logo" width={120} height={60} />
