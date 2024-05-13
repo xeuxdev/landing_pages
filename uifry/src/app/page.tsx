@@ -120,10 +120,10 @@ export default function Home() {
               />
             </svg>
             {/* blur bg */}
-            <div className="absolute top-[30rem] right-0 w-[327px] h-[237px] -z-10">
+            <div className="absolute top-[28rem] -right-[112px] w-[457px] h-[280px] -z-10">
               <div className="relative w-full h-full">
-                <div className="absolute left-0 top-0 w-[299px] h-[157px] bg-[#FDE598] blur-[51.5773px] " />
-                <div className="absolute left-0 bottom-0 w-[299px] h-[157px] bg-[#FF5555] blur-[51.5773px] " />
+                <div className="absolute w-[331.46px] h-[178.57px] rotate(150deg) blur-[51.5773px] " />
+                <div className="absolute w-[397.43px] h-[214.11px] bg-[#FF5555] rotate(150deg) blur-[51.5773px] " />
               </div>
             </div>
 
@@ -152,6 +152,20 @@ export default function Home() {
                 />
               </div>
             </div>
+
+            <svg
+              width="47"
+              height="46"
+              viewBox="0 0 47 46"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="absolute right-[22rem] top-[39rem]"
+            >
+              <path
+                d="M34.7847 45.5693L22.584 26.6942L6.72559 42.6202L20.9067 25.1839L0.859633 15.023L21.8247 23.122L25.2934 0.916202L24.0695 23.3579L46.2603 19.7948L24.5387 25.5657L34.7847 45.5693Z"
+                fill="black"
+              />
+            </svg>
           </div>
         </section>
       </main>
